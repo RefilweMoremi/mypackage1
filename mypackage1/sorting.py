@@ -41,7 +41,7 @@ def merge_sort(items):
     i1 = merge_sort(items[:mid_point])
 
     #
-    def quick_sort(items,index=-1):
+def quick_sort(items,index=-1):
     '''Return array of items, sorted in ascending order'''
 
     len_i = len(items)
